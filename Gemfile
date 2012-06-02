@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '3.2.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'locomotive_cms', '~> 2.0.0.rc7', :require => 'locomotive/engine'
+gem 'unicorn', :group => 'development'
+gem 'compass-rails', '~> 1.0.0.rc.3', :group => 'assets'
 
 gem 'json'
 
